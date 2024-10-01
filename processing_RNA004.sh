@@ -9,7 +9,7 @@ ml dorado
 # BASECALLING
 
 function rna004_basecalling {
-    $dorado basecaller \
+    dorado basecaller \
         sup,pseU $1 \
         -r \
         --device $3 >"$2"_basecall.unaligned.bam
